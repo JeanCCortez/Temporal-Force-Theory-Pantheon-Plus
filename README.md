@@ -1,29 +1,44 @@
-# Temporal Force Theory (EFT) - Pantheon+ Analysis
+# Teoria do Tempo-Força (EFT) - Análise Pantheon+
 
-## Confirmation of Cosmological Redshift Anisotropy ($\mathbf{6.63\sigma}$)
+## Confirmação da Anisotropia Cosmológica no Redshift (6.63 sigma)
 
-This repository contains the data and code used to validate the Temporal Force Theory (EFT) by analyzing the Pantheon+ Supernova Sample ($\mathbf{N=1701}$).
+Este repositório contém os dados e o código usados para validar a Teoria do Tempo-Força (EFT) através da análise do Catálogo de Supernovas Pantheon+ (N=1701).
 
-The results prove that the cosmological redshift is **not isotropic** and is modulated by a measurable Temporal Stress Vector ($\vec{S}$), challenging the foundational assumption of the $\Lambda$CDM model.
-
----
-
-### **1. CORE EMPIRICAL RESULTS (Reproducible Output)**
-
-The following values were obtained by running the `analise.py` script on the `PantheonPlusSH0ES.dat` file. These results directly support the claim that Time is a directional Force.
-
-| Parameter | Description | Value | Significance | Conclusion |
-| :--- | :--- | :--- | :--- | :--- |
-| **A** (Quadrupole Structure) | **Anisotropy of structure ($\mathbf{A}$)** | $\mathbf{0.4051}$ | $\mathbf{6.63\sigma}$ | **REFUTES ISOTROPY.** The universe has an uneven temporal structure. |
-| **B** (Dipole Flow) | **Directional flow of Time/Energy Field ($\mathbf{B}$)** | $\mathbf{0.0833}$ | $\mathbf{2.23\sigma}$ | **CONFIRMS FLOW.** The field is directional ($\mathbf{l=125.5^{\circ}}$). |
-| **$\mathbf{\gamma}$** (Radial Profile Factor) | **Factor of Dark Energy field dilution** | $\mathbf{-18.7488}$ | $\mathbf{2431\sigma}$ | **CONFIRMS PPT.** The negative value proves the required anti-field dilution mechanism. |
+Os resultados provam que o redshift cosmológico **não é isotrópico** e é modulado por um **Vetor de Stress Temporal (S_vetor)** mensurável, desafiando o pressuposto fundamental do modelo Lambda-CDM.
 
 ---
 
-### **2. DATA & AUDITABILITY**
+### 1. RESULTADOS EMPÍRICOS CENTRAIS (Saída Reproduzível)
 
-- **Data Source:** `PantheonPlusSH0ES.dat` (1701 SN Ia).
-- **Code:** `analise.py` (Final, validated version of the two-test model).
-- **License:** Open Source / CC BY (For full scientific auditability).
+Os seguintes valores foram obtidos ao rodar o script analise.py no arquivo PantheonPlusSH0ES.dat. Estes resultados apoiam diretamente a afirmação de que o Tempo é uma Força direcional.
 
-**The challenge to the scientific community is to reproduce the $\mathbf{6.63\sigma}$ result.**
+**PARÂMETROS DA TEORIA DO TEMPO-FORÇA:**
+
+* **A (Estrutura Quadrupolar):** 0.4051. (Significância: 6.63 sigma)
+    * Conclusão: **REFUTA A ISOTROPIA.** O universo possui uma estrutura temporal não-homogênea.
+
+* **B (Fluxo Dipolar):** 0.0833. (Significância: 2.23 sigma)
+    * Conclusão: **CONFIRMA O FLUXO.** O campo possui uma direcionalidade mensurável (l = 125.5 graus).
+
+* **Gamma (Fator de Perfil Radial):** -18.7488. (Significância: 2431.35 sigma)
+    * Conclusão: **CONFIRMA O PPT.** O valor negativo comprova o mecanismo de anti-campo (diluição) requerido pelo Princípio da Polaridade Temporal.
+
+---
+
+### 2. DADOS E AUDITABILIDADE
+
+* **Fonte de Dados:** PantheonPlusSH0ES.dat (1701 SN Ia).
+* **Código:** analise.py (Versão final e validada dos dois testes).
+* **Licença:** Código Aberto / CC BY (Para auditoria científica total).
+
+**O desafio para a comunidade científica é reproduzir o resultado de 6.63 sigma.**
+
+---
+
+### 3. PRÓXIMOS PASSOS (PARA AUDITORIA)
+
+* **Material Suplementar:** O rigor matemático da derivação PPN e do Tensor Tempo-Força está documentado no arquivo Material_Suplementar_EFT.md.
+
+---
+
+**Ação:** Por favor, faça a substituição do conteúdo do `README.md` no seu repositório. Assim, a sua mensagem pública estará formalmente alinhada com o Artigo Principal.
